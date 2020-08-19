@@ -2,11 +2,12 @@
 // Created by tamar on 8/18/20.
 //
 
-#ifndef DNA_ANALYZER_PROJECT_NEW_H
-#define DNA_ANALYZER_PROJECT_NEW_H
+#ifndef CODE_NEW_H
+#define CODE_NEW_H
 
-#include "../iCommand.h"
-#include "../data.h"
+
+#include <icommand.h>
+#include <data.h>
 
 class New: public ICommand
 {
@@ -20,6 +21,7 @@ private:
     static size_t s_id;
     static size_t s_name;
 };
-q
 
-#endif //DNA_ANALYZER_PROJECT_NEW_H
+
+
+#endif //CODE_NEW_H

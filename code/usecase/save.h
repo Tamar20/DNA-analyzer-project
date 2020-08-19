@@ -2,13 +2,12 @@
 // Created by tamar on 8/18/20.
 //
 
-#ifndef DNA_ANALYZER_PROJECT_SAVE_H
-#define DNA_ANALYZER_PROJECT_SAVE_H
+#ifndef CODE_SAVE_H
+#define CODE_SAVE_H
 
 #include <iostream>
-#include "../iCommand.h"
-#include "../data.h"
-
+#include <icommand.h>
+#include <data.h>
 
 class Save: public ICommand
 {
@@ -18,4 +17,5 @@ public:
     /*virtual*/ void help();
 };
 
-#endif //DNA_ANALYZER_PROJECT_SAVE_H
+
+#endif //CODE_SAVE_H
