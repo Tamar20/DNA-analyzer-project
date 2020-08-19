@@ -1,6 +1,0 @@
-data.o: data.cpp data.h dnaMetaData.h dna/dna.h
-manager.o: manager.cpp manager.h dna/dna.h icli.h data.h dnaMetaData.h \
- parser.h
-cli.o: cli.cpp cli.h icli.h
-parser.o: parser.cpp parser.h
-main.o: main.cpp manager.h dna/dna.h icli.h data.h dnaMetaData.h cli.h
