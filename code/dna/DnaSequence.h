@@ -155,7 +155,7 @@ inline bool operator!=(const DnaSequence& d1, const DnaSequence& d2)
 
 inline  std::ostream& operator<<(std::ostream& os, const DnaSequence& d)
 {
-    os << "The dna is: " << d.getDnaAsStr() << std::endl;
+    os << d.getDnaAsStr() << std::endl;
     return os;
 }
 

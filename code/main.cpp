@@ -2,9 +2,8 @@
 // Created by tamar on 8/18/20.
 //
 
-#include "manager.h"
-#include "data.h"
-#include "cli.h"
+#include "manager/manager.h"
+#include "interface/cli.h"
 
 int main()
 {
@@ -12,7 +11,7 @@ int main()
     Cli c;
 
     Manager m(&c, &d);
-    m.start(&d);
+    m.start();
     m.run();
     m.exit();
     return 0;
