@@ -13,9 +13,11 @@ class Save: public ICommand
 {
 public:
     Save(Data*);
-    /*virtual*/ void action(){std::cout<<"in Save\n";}
+    /*virtual*/ std::string action(const std::vector<std::string>& args);
     /*virtual*/ void help();
-};
 
+private:
+    Data* m_data;
+};
 
 #endif //CODE_SAVE_H

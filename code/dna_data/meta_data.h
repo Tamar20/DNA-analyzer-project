@@ -12,7 +12,7 @@ class DnaMetaData
 {
 public:
     DnaMetaData(DnaSequence* seq, std::string name, size_t id);
-    size_t getId(){return 1;}
+    size_t getId();
     std::string getName(){return m_name;}
     DnaSequence* getDna(){return m_dna;}
 
@@ -25,4 +25,10 @@ private:
 
 inline DnaMetaData::DnaMetaData(DnaSequence *seq, std::string name, size_t id):
     m_id(id), m_name(name), m_dna(seq){}
+
+inline size_t DnaMetaData::getId()
+{
+    return m_id;
+}
+
 #endif //CODE_META_DATA_H

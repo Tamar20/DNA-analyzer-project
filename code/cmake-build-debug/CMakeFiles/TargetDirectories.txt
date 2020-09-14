@@ -1,0 +1,3 @@
+/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/cmake-build-debug/CMakeFiles/code.dir

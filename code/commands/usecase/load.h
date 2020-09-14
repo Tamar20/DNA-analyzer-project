@@ -13,12 +13,13 @@ class Data;
 class Load: public ICommand
 {
 public:
-    Load(Data*);
-    /*virtual*/ std::string action(std::vector<std::string>&);
+    Load(Data* data, ICommand* creation);
+    /*virtual*/ std::string action(const std::vector<std::string>& );
     /*virtual*/ void help();
 
 private:
     Data *m_data;
+    ICommand* m_creation;
 } ;
 
 
