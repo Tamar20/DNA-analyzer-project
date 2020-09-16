@@ -13,11 +13,12 @@
 #include <vector>
 
 #include "InvalidDna.h"
+#include "iDnaSequence.h"
 
 enum Nucleotide: char { A = 'A', a = 'A', C = 'C', c = 'C', G = 'G', g = 'G', T = 'T', t = 'T'};
 
 
-class DnaSequence {
+class DnaSequence : public IDnaSequence{
 public:
 
     DnaSequence(const std::string&);

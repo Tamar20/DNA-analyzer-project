@@ -2,8 +2,8 @@
 // Created by tamar on 8/18/20.
 //
 
-#include "../../model/read_write/DNAReader.h"
-#include "../../dna_data/data.h"
+#include "../../read_write/DNAReader.h"
+#include "../../../model/dna_data/data.h"
 #include <sstream>
 #include "load.h"
 

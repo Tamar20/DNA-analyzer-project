@@ -3,7 +3,7 @@
 //
 
 #include "new.h"
-#include "../../dna_data/data.h"
+#include "../../../model/dna_data/data.h"
 #include <sstream>
 
 New::New(Data* data) : m_data(data) {}

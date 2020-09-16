@@ -1,14 +1,14 @@
-#include "manager.h"
-#include "parser.h"
+#include "controller.h"
+#include "../view/parser.h"
 #include "commands_container.h"
 
 
-Manager::Manager(ICli *cli, Data *dnaData): m_cli(cli), m_dnaData(dnaData)
+Controller::Controller(ICli *cli, Data *dnaData): m_cli(cli), m_dnaData(dnaData)
 {
     CommandsContainer::init_map_command(m_dnaData);
 }
 
-void Manager::run()
+void Controller::run()
 {
     while (1)
     {

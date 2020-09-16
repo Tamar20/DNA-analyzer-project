@@ -2,18 +2,18 @@
 // Created by tamar on 8/18/20.
 //
 
-#include "manager/manager.h"
-#include "interface/cli.h"
+#include "controller/controller.h"
+#include "view/interface/cli.h"
 
 int main()
 {
-    Data d;
-    Cli c;
+    Data data;
+    Cli cli;
 
-    Manager m(&c, &d);
-    m.start();
-    m.run();
-    m.exit();
+    Controller controller(&cli, &data);
+    controller.start();
+    controller.run();
+    controller.exit();
     return 0;
 }
 

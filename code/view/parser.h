@@ -7,8 +7,11 @@
 #define CODE_PARSER_H
 
 
-#include "../commands/icommand.h"
-#include "../dna_data/data.h"
+//#include "../commands/icommand.h"
+//#include "../dna_data/data.h"
+
+#include <vector>
+#include <string>
 
 class Parser
 {

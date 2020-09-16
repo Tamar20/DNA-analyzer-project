@@ -82,97 +82,106 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/commands/icommand.cpp">
+		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/controller/commands/icommand.cpp">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/commands/icommand.h">
+		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/controller/commands/icommand.h">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/commands/usecase/load.cpp">
+		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/controller/commands/usecase/load.cpp">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/commands/usecase/load.h">
+		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/controller/commands/usecase/load.h">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/commands/usecase/new.cpp">
+		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/controller/commands/usecase/new.cpp">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/commands/usecase/new.h">
+		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/controller/commands/usecase/new.h">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/commands/usecase/save.cpp">
+		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/controller/commands/usecase/save.cpp">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/commands/usecase/save.h">
+		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/controller/commands/usecase/save.h">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/dna/DnaSequence.cpp">
+		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/controller/commands_container.cpp">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/dna/DnaSequence.h">
+		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/controller/commands_container.h">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/dna/InvalidDna.cpp">
+		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/controller/controller.cpp">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/dna/InvalidDna.h">
+		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/controller/controller.h">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/dna_data/data.cpp">
+		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/controller/read_write/DNAReader.cpp">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/dna_data/data.h">
+		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/controller/read_write/DNAReader.h">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/dna_data/meta_data.cpp">
+		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/controller/read_write/DNAWriter.cpp">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/dna_data/meta_data.h">
-			<Option target="code"/>
-		</Unit>
-		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/interface/cli.cpp">
-			<Option target="code"/>
-		</Unit>
-		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/interface/cli.h">
-			<Option target="code"/>
-		</Unit>
-		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/interface/icli.cpp">
-			<Option target="code"/>
-		</Unit>
-		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/interface/icli.h">
+		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/controller/read_write/DNAWriter.h">
 			<Option target="code"/>
 		</Unit>
 		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/main.cpp">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/manager/commands_container.cpp">
+		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/model/dna/DnaSequence.cpp">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/manager/commands_container.h">
+		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/model/dna/DnaSequence.h">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/manager/manager.cpp">
+		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/model/dna/InvalidDna.cpp">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/manager/manager.h">
+		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/model/dna/InvalidDna.h">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/manager/parser.cpp">
+		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/model/dna/iDnaSequence.h">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/manager/parser.h">
+		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/model/dna_data/data.cpp">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/model/read_write/DNAReader.cpp">
+		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/model/dna_data/data.h">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/model/read_write/DNAReader.h">
+		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/model/dna_data/meta_data.cpp">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/model/read_write/DNAWriter.cpp">
+		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/model/dna_data/meta_data.h">
 			<Option target="code"/>
 		</Unit>
-		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/model/read_write/DNAWriter.h">
+		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/shared_ptr.cpp">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/shared_ptr.h">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/view/interface/cli.cpp">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/view/interface/cli.h">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/view/interface/icli.cpp">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/view/interface/icli.h">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/view/parser.cpp">
+			<Option target="code"/>
+		</Unit>
+		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/view/parser.h">
 			<Option target="code"/>
 		</Unit>
 		<Unit filename="/home/tamar/Desktop/BootCamp/DNA_Analyzer_Project/code/CMakeLists.txt">

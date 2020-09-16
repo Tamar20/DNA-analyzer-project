@@ -3,7 +3,8 @@
 //
 
 #include "save.h"
-#include "../../model/read_write/DNAWriter.h"
+#include "../../read_write/DNAWriter.h"
+
 
 Save::Save(Data *data) :m_data(data){}
 

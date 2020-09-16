@@ -1,7 +1,7 @@
 #include "commands_container.h"
-#include "../commands/usecase/new.h"
-#include "../commands/usecase/load.h"
-#include "../commands/usecase/save.h"
+#include "commands/usecase/new.h"
+#include "commands/usecase/load.h"
+#include "commands/usecase/save.h"
 #include <string>
 
 std::map<std::string,ICommand*> CommandsContainer::commands;
