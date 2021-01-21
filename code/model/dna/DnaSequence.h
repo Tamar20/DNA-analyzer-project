@@ -12,10 +12,7 @@
 #include <fstream>
 #include <vector>
 
-#include "InvalidDna.h"
 #include "iDnaSequence.h"
-
-enum Nucleotide: char { A = 'A', a = 'A', C = 'C', c = 'C', G = 'G', g = 'G', T = 'T', t = 'T'};
 
 
 class DnaSequence : public IDnaSequence{
@@ -168,6 +165,7 @@ inline DnaSequence DnaSequence::slicing(size_t start, size_t end) const
 {
     if(start > end || end > length())
         throw std::out_of_range("Your range is incorrect.");
+    
     std::string myDna = getDnaAsStr(), s = "";
 
     for (size_t i = start; i < end; ++i)

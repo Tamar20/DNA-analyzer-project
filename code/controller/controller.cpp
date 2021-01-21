@@ -1,11 +1,12 @@
 #include "controller.h"
 #include "../view/parser.h"
 #include "commands_container.h"
+#include "errors/DnaException.h"
 
 
 Controller::Controller(ICli *cli, Data *dnaData): m_cli(cli), m_dnaData(dnaData)
 {
-    CommandsContainer::init_map_command(m_dnaData);
+    CommandsContainer::initMapCommand(m_dnaData);
 }
 
 void Controller::run()
@@ -19,18 +20,21 @@ void Controller::run()
         {
             break;
         }
-        ICommand* command = CommandsContainer::get_command(parse[0]);
+        std::string output;
 
-        if (!command)
+        try
         {
-            std::cout << parse[0] << ": command not found" << std::endl;
+        	ICommand* command = CommandsContainer::getCommand(parse[0]);
+        	output = command->action(parse);
         }
-        else
-        {
-            std::string output = command->action(parse);
-            m_cli->output(output);
-        }
-
+        
+		catch(DnaException& err)
+		{
+			output = err.what();
+		}
+        
+    	m_cli->output(output);
+        
     }
 
 }

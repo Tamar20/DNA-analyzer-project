@@ -1,7 +1,0 @@
-g++ commands/*.cpp commands/usecase/*.cpp dna/*.cpp dna_data/*.cpp interface/*.cpp manager/*.cpp model/read_write/*.cpp main.cpp
-
-
-rm -f commands/*.o commands/usecase/*.o dna/*.o dna_data/*.o interface/*.o manager/*.o model/read_write/*.o main.o main .depends
-
-
-git add code/commands code/dna code/dna_data code/interface code/manager code/model code/main.cpp diagram.pdf diagram.mdj

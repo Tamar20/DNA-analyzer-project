@@ -7,14 +7,16 @@
 
 
 #include <fstream>
-#include "../../model/dna/DnaSequence.h"
-
+#include "../../model/dna/DnaSequence.h" // I ??
+//#include "../../shared_ptr.h" //???
 
 class DNAWriter
 {
 public:
     DNAWriter(std::string);
-    void Write(const DnaSequence* other);
+    void Write(const DnaSequence* other); // I ???
+    //void Write(const SharedPtr<IDnaSequence> other);
+    
     ~DNAWriter();
 
 private:

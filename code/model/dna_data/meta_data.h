@@ -13,19 +13,20 @@
 class DnaMetaData
 {
 public:
-    DnaMetaData(SharedPtr<IDnaSequence> seq, std::string name, size_t id);
+    DnaMetaData(DnaSequence* seq, std::string name, size_t id);
     size_t getId();
     std::string getName();
-    SharedPtr<IDnaSequence> getDna();
+    //SharedPtr<IDnaSequence> getDna();
+    DnaSequence* getDna();
 
 private:
     size_t m_id;
     std::string m_name;
-    SharedPtr<IDnaSequence> m_dna;
-
+    //SharedPtr<IDnaSequence> m_dna;
+	IDnaSequence* m_dna;
 };
 
-inline DnaMetaData::DnaMetaData(SharedPtr<IDnaSequence> seq, std::string name, size_t id):
+inline DnaMetaData::DnaMetaData(DnaSequence* seq, std::string name, size_t id):
     m_id(id), m_name(name), m_dna(seq){}
 
 inline size_t DnaMetaData::getId()
@@ -38,9 +39,9 @@ inline std::string DnaMetaData::getName()
     return m_name;
 }
 
-inline SharedPtr<IDnaSequence> DnaMetaData::getDna()
+inline DnaSequence* DnaMetaData::getDna()
 {
-    return m_dna;
+    return (DnaSequence*)m_dna;
 }
 
 

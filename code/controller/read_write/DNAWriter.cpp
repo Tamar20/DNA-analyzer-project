@@ -3,22 +3,29 @@
 //
 
 #include "DNAWriter.h"
+#include "../errors/OpenFileError.h"
 
 DNAWriter::DNAWriter(std::string name)
 {
-    name += ".rawdna";
+    name = "dna_files/" + name + ".rawdna";
     myfile.open(name.c_str());
+    
     if (!myfile.is_open())
-        throw std::domain_error("We couldn't open the file.");
+        throw OpenFileError();
 }
 
+/*void Write(const SharedPtr<IDnaSequence> other)
+{
+	for (size_t i = 0; i < other->length(); ++i)
+        myfile << (other)[i];
 
-void DNAWriter::Write(const DnaSequence* other)
+}*/
+
+void DNAWriter::Write(const DnaSequence* other) //??
 {
     for (size_t i = 0; i < other->length(); ++i)
-        myfile << (other)[i];
+        myfile << other[i];
 }
-
 
 DNAWriter::~DNAWriter()
 {

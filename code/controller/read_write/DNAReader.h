@@ -1,5 +1,5 @@
 //
-// Created by shoshi on 8/20/20.
+// Created by tamar on 8/20/20.
 //
 
 #ifndef CODE_DNAREADER_H
@@ -7,6 +7,7 @@
 
 
 #include <fstream>
+
 class DNA;
 
 class DNAReader

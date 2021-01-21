@@ -1,4 +1,3 @@
-
 //
 // Created by tamar on 6/1/20.
 //
@@ -6,12 +5,13 @@
 #include <algorithm>
 
 #include "DnaSequence.h"
-
+#include "../../controller/errors/InvalidDna.h"
 
 Nucleotide* DnaSequence::strToDna(std::string s)
 {
     if (s.find_first_not_of("ACGTacgt") != std::string::npos)
-        throw InvalidDna("invalid dna");
+        throw InvalidDna();
+    
     size_t len = s.length();
     Nucleotide* dna = new Nucleotide[len];
 
@@ -29,6 +29,7 @@ Nucleotide* DnaSequence::strToDna(std::string s)
         else if (s[i] == 'T' || s[i] == 't')
             dna[i] = T;
     }
+
     return dna;
 }
 
@@ -74,7 +75,7 @@ DnaSequence dnaFromFile(const char* filename)
         DnaSequence dna(line);
         return dna;
     }
-    else throw std::domain_error("We couldnt open the file.");
+    else throw std::domain_error("We could not open the file.");
 
 }
 

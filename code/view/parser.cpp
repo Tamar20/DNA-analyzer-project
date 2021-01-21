@@ -16,6 +16,7 @@ std::vector<std::string> Parser::parser(std::string line)
     {
         tokens.push_back(token);
     }
+    
     return tokens;
 }
 

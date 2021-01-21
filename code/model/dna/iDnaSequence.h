@@ -5,12 +5,8 @@
 #ifndef CODE_IDNASEQUENCE_H
 #define CODE_IDNASEQUENCE_H
 
+#include "Nucleotide.h"
 
-#include "DnaSequence.h"
-
-//???
-enum Nucleotide: char { A = 'A', a = 'A', C = 'C', c = 'C', G = 'G', g = 'G', T = 'T', t = 'T'};
-///???
 class IDnaSequence
 {
 public:
